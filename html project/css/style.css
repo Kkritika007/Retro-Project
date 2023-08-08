@@ -1,0 +1,589 @@
+
+/*home page styling*/
+  
+  body {
+    font-family: 'Noto Serif', serif;
+  }
+  
+  
+  h1 {
+    font-size: 2.5em; /* 2.5em font size for h1 */
+    text-align: center;
+    margin-bottom: 1.5em; /* 1.5em margin bottom for h1 */
+  }
+ 
+ /* Center the heading and line */
+.heading-with-line {
+  text-align: center;
+}
+
+/* Style the line */
+.line {
+  border: none;
+  border-top: 2px solid black;
+  width: 50px; 
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; /* Adjust the spacing between line and heading */
+}
+
+/* Style the heading */
+h2 {
+  display: inline-block;
+  font-size: 24px; 
+  margin: 0; 
+  padding: 1em; 
+  vertical-align: middle;
+}
+
+  /* Add more styles and layout as needed for your content */
+  .image-section {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto; 
+    max-width: 800px; 
+  }
+  
+  /* Style for each image box */
+  .image-box {
+    flex: 1 0 200px; /* Each box will have a minimum width of 200px and flex-grow property */
+    margin: 1em;
+    text-align: center;
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    height: 16em;
+  }
+  
+  /* Style for image text */
+  .image-text {
+    text-align: center;
+    font-size: 1.2em; 
+  }
+  nav {
+    text-align:right;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0; 
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 1em; /* Add some spacing between the links */
+  }
+  
+  nav li:last-child {
+    margin-right: 0; /* Remove the margin for the last link */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #f6f2f2;
+    font-size: 1.2em; 
+  }
+
+  /* Style the "Know More" button */
+.know-more-button {
+  display: inline-block;
+  background-color: #9d8f99;
+  color: #fff;
+  text-decoration: gray;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+margin-top: 1em;
+margin-left: 35em;
+}
+
+.know-more-button:hover {
+  background-color: #faa0c156;
+}
+.text {
+  display: flex;
+  text-align: center;
+}
+
+/* Styling for the about history section */
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#aboutHeader {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+#aboutHeader h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#aboutHeader nav {
+  text-align: right;
+}
+
+#aboutHeader ul {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+#aboutHeader li {
+  display: inline;
+  margin-right: 1em;
+}
+
+#aboutHeader li:last-child {
+  margin-right: 0;
+}
+
+#aboutHeader a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+#aboutContent {
+  padding: 2em;
+}
+
+#aboutContent h2 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+#aboutContent p {
+  line-height: 1.6;
+  
+}
+
+#history {
+  display: flex;
+  align-items: center;
+}
+#history{
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+#history .image img {
+  max-width: 250px;
+  margin-right: 2em;
+}
+
+#founder {
+  display: flex;
+  align-items: center;
+}
+
+#founder .info {
+  flex: 1;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+#founder .image img {
+  max-width: 250px;
+  border-radius: 50%; /* Add this to make the image circular */
+  overflow: hidden; /* Ensure the circular shape is visible */
+  margin-bottom: -2em;
+}
+
+#aboutFooter {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#aboutFooter p {
+  margin: 0;
+  
+}
+
+
+
+.go-to-product {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.go-to-product p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 1.5em;
+}
+
+.go-to-product .button {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  background-color: rgb(81, 80, 80);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.go-to-product .button:hover {
+  background-color: rgb(156, 152, 150);
+}
+
+/* Additional styles for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .go-to-product p {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .go-to-product p {
+    font-size: 1em;
+  }
+
+  .go-to-product .button {
+    font-size: 1em;
+    padding: 0.5em 1em;
+  }
+}
+
+
+
+
+/* produvt page styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+
+.product {
+  background-color: #f9f9f9;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.product h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.product p {
+  color: #666;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+.price {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+/*product page */
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-item {
+  text-align: center;
+  background-color: #fff;
+  box-shadow:  0 4px 6px rgb(11 7 7 / 35%);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+}
+
+.product-item img {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+.product-item h2 {
+  font-size: 1.5em;
+  margin-top: 15px;
+  color: #444;
+}
+
+.product-item p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles for Mobile Phones */
+@media (max-width: 767px) {
+  .product-container {
+    padding: 10px;
+  }
+  
+  .product-item {
+    width: 90%;
+    margin: 10px;
+  }
+}
+
+/* Responsive Styles for Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .product-container {
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .product-item {
+    width: 45%;
+    margin: 10px;
+  }
+}
+
+/* CSS for the "Order Now" button */
+.order-now-button {
+  display: block;
+  width: 100px; /* Set a fixed width to create a circular shape */
+  height: 100px; /* Set a fixed height to create a circular shape */
+  line-height: 100px; /* Vertically center the text */
+  text-align: center;
+  background-color: rgb(71, 69, 69); 
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25%; 
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+/* Style the "Order Now" button on hover */
+.order-now-button:hover {
+  background-color: rgb(157, 148, 148); 
+}
+
+
+
+/* Style for the contact link section */
+.contact-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-link p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* Style for the contact button */
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #282a2c; 
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-left: 40em;
+}
+
+/* Style the contact button on hover */
+.contact-button:hover {
+  background-color: #5c5a5a; 
+}
+
+
+
+
+
+
+/*contact page styling*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.contact-form {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form-image {
+  flex: 1;
+  padding: 30px;
+}
+
+.form-image img {
+  max-width: 100%;
+  height: 33em;
+  display: block;
+  margin-left:1em ;
+  margin-top: 0em;
+}
+
+.form-content {
+  flex: 2;
+  padding: 30px;
+}
+
+.form-content h2 {
+  margin-top: 0;
+}
+
+
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info li strong {
+  margin-right: 10px;
+}
+
+.contact-info a {
+  color: #04AA6D;
+  text-decoration: none;
+}
+
+
+
+
+.contact-form-container {
+  margin-top: 20px;
+}
+
+.contact-form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-form-container button {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form-container button:hover {
+  background-color: #45a049;
+}
+.info-- {
+margin-top: 3em;
+}
+
+
+
+.video-link {
+  text-align: center;
+  margin-top: 3em;
+  padding: 2em;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-link h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.video-link p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.video-link a {
+  display: inline-block;
+  background-color: #04AA6D;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.video-link a:hover {
+  background-color: #45a049;
+}
